@@ -3,7 +3,7 @@
 ## References down below
 
 # Desktop
-![Alt text](./preview/desktop.png "desktop")
+![Alt text](./images/mockup.png "desktop")
 
 # Tablet
 ![Alt text](./preview/tablet.png "tablet")

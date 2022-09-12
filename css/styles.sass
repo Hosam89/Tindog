@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Dancing+Script:wght@400;600&family=Qwitcher+Grypen:wght@700&display=swap')
+// logo und Title font-family: 'Dancing Script', cursive
+// text font-family: 'Qwitcher Grypen', cursive
+:root
+    font-size: 62.5%
+    font-family: 'Qwitcher Grypen', cursive
+
+* , *::before, *::after
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+body
+    height: 100vh
+
+#title
+    background-color: #ff4c67
+    .brand
+        font-family: 'Dancing Script', cursive
+        font-size: 2rem
+        font-weight: 600
+    h1
+        font-size: 5rem
+        font-weight: 900
+    ul
+        li
+            font-size: 1.5rem
+    button
+        &:hover
+            background-color: black
+
+@media screen and (min-width: 769px)
+    #title
+        overflow: hidden
+        height: 40%
+    .rotate
+        transform: rotate(25deg)
+#features
+    h3
+        font-size: 2.5rem
+    i
+        color: #ee8072
+        font-size: 5rem
+#testimonials
+    background-color: #ee8072
+    padding: 9rem
+    h2
+        font-size: 4rem
+        padding: 0 5rem
+#press
+    background-color: #ee8072
+    padding: 9rem
+#pricing
+    .title-pricing
+        height: 30%
+        font-size: 4rem
+    button
+        position: absolute
+        left: 0
+        bottom: 0
+        &:hover
+            background-color: black
+#cta
+    background-color: #957454
+    button
+        font-size: 1.5rem
+footer
+    i
+        color: black
+        font-size: 2rem
